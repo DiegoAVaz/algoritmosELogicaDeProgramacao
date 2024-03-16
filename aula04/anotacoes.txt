@@ -1,0 +1,85 @@
+# Aula 4
+
+O teste é uma expressão booleana (resulta V/F)
+
+*Operadores Relacionais*
+
+>, > =
+
+<, < =
+
+= =
+
+!=
+
+*Operadores Lógicos*
+
+&& → e
+
+|| → ou
+
+! → não
+
+*Prioridades*
+
+1 Negação
+
+2 Conjunção (e)
+
+3 Disjunção (ou)
+
+*Pratica*
+
+Considere a=7
+
+b=4, c=3
+
+a>7 F
+
+a>=7 V
+
+a<b+c F
+
+b+c<=a-b F
+
+a>=5&&c>3 F
+
+a-b<=3||c<8 V
+
+!(a+b>=a-b) F
+
+!a (em C) F
+
+b>&&a=2 V  (um = é atribuição)
+
+####################################################################
+
+O comando if-else (se / se não)
+
+if (condicao Verdadeira) {
+    instrucoes caso verdadeiro
+} else {
+    instrucoes caso falso
+}
+
+Observaçoes:
+
+1. Nem sempre temos else
+2. O else não tem condição 
+3. Os blocos if/else são separados
+4. Caso tenhamos mais que 2 possibilidades, precisamos combinar comando if/else
+
+############################################################333
+
+Leitura de caracteres
+
+- Um caractere é qualquer símbolo do teclado;
+- uma string é uma sequência de caracteres;
+- não temos método específico para leitura de caracteres;
+- a forma de fazermos isso é lermos uma string e capturarmos;
+- a sequência de caracteres é um vetor: |_|_|_|_|_|_|_|_|_|;
+                                         0 1 2 3 4 5 6 7 8
+- o método para capturar uma letra de uma string é: charAt(posicao);
+- a primeira letra está na posição 0;
+- método length() te dá o tamanho (comprimento) da string.
+

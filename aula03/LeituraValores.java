@@ -19,7 +19,7 @@ public class LeituraValores {
             JOptionPane.showInputDialog("digite um valor decimal")
         );
 
-        JOptionPane.showMessageDialog(null, "Triple X: " + 3 * x);
+        JOptionPane.showMessageDialog(null, "Triple X: " + 3 * numero);
 
     }
 }
