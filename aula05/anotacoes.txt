@@ -1,0 +1,65 @@
+ACUMULADORES
+
+var = var operador expressao
+a = a + 1
+b = b - 1
+c = c * 10
+x = x / 5
+y = y + (a * b)
+string = string + "palavra"
+
+
+
+OS LAÇOS PODEM SER
+
+1. Contados:
+    Sabemos quantas vezes será executado
+
+2. Por sentinela:
+    Não sabemos o número de repetições
+
+Os testes de continuidade podem ser executados no:
+
+INÍCIO: as instruções podem não ser realizadas
+FIM: as instruções são realizadas pelo menos uma vez
+
+Em java temos 3 comandos
+
+INÍCIO 
+    1. for (melhor para contador)
+    2. while (melhor para sentinela)
+FIM
+    3. do-while (melhor para sentinela)
+
+
+
+1. while (enquanto)
+
+Em algum lugar antes inicia o contador ou condição
+
+while (teste verdadeiro){
+    instruções que se repetem
+    atualiza condição ou contador
+}
+
+
+Valores Randômicos (pseudo-aleatórios)
+
+Em java temos duas classes com métodos geradores:
+
+1. Math:
+    Método random()
+    [0, 1)
+
+2. Random 
+    Métodos 
+        nextInt(): -2^31 |--- 2^31 - 1
+        nextDouble(): [0, 1)
+        nextBoolean(): T/F 
+        .
+        .
+        .
+
+Vamos brincar com nextInt(limite)
+-> Números inteiros entre 0 e limite 1
+-> Operação resto %
