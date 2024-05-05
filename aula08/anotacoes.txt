@@ -1,0 +1,14 @@
+// DO WHILE
+
+O comando do-while(), diferente do for e while, faz a verificação apenas no final da rotina, diferente.
+
+- Teste no final
+- Laço contado / com sentinela
+- Sintaxe
+    - Inicializar o contador / a condição antes - opcional
+    - abre o bloco com o comando do 
+        - Todas as instruções
+        - Atualizar / inicializar o contador / a condição 
+    - Fecha o bloco com o comando while (teste verdadeiro) 
+
+- Ao fazer o teste no final, com certeza, as instruções são realizadas ao menos uma vez
